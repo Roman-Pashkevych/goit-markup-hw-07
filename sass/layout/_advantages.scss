@@ -3,10 +3,10 @@
     padding-top: 94px;
     padding-bottom: 47px;
 }
-.advantages-list {
+.advantages__list {
     display: flex;
 }
-.advantages-item {
+.advantages__item {
     flex-basis: calc((100%-3 * 30px) / 4);
 
     &:not(:first-child) {
@@ -14,11 +14,11 @@
     }
 }
 
-.advantages-icon {
+.advantages__icon {
     width: 70px;
     height: 70px;
 }
-.advantages-box-icon {
+.advantages-box__icon {
     width: 270px;
     height: 120px;
     display: flex;
@@ -28,7 +28,7 @@
     border-radius: 4px;
     margin-bottom: 30px;
 }
-.title-description {
+.title__description {
     margin-bottom: 10px;
     font-weight: bold;
     font-size: 14px;

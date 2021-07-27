@@ -17,18 +17,20 @@
         color: var(--accent-color);
     }
 }
-.logo-footer-web {
+.logo-footer__web {
     color: var(--accent-color);
 }
 
 .contact-footer {
     margin-top: 20px;
 }
-.contact-footer-item:not(:first-child) {
-    margin-top: 9px;
+.contact-footer__item {
+    &:not(:first-child) {
+        margin-top: 9px;
+    }
 }
 
-.contact-footer-link {
+.contact-footer__link {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -42,7 +44,7 @@
         color: var(--accent-color);
     }
 }
-.contact-footer-link.address {
+.contact-footer__link.address {
     color: var(--secondary-color);
 
     &:hover,
@@ -69,19 +71,22 @@
 .box-social-link {
     margin-left: 70px;
 }
-.social-item-footer:not(:first-child) {
-    margin-left: 10px;
+.social__item-footer {
+    &:not(:first-child) {
+        margin-left: 10px;
+    }
 }
+
 .form-footer {
     margin-left: auto;
 }
-.input-button-box {
+.form__input-button-box {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
 }
-.form-head-footer {
+.form__head-footer {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.142;
@@ -89,7 +94,7 @@
     text-transform: uppercase;
     color: var(--secondary-color);
 }
-.form-input-footer {
+.form__input-footer {
     width: 358px;
     height: 50px;
     background-color: transparent;
@@ -115,7 +120,7 @@
     padding: 10px 28px 10px 29px;
     margin-left: 12px;
 }
-.form-footer-icon {
+.form__footer-icon {
     width: 24px;
     height: 24px;
     margin-left: 10px;

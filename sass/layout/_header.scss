@@ -23,7 +23,7 @@
 .logo {
     padding-top: 24px;
     padding-bottom: 25px;
-    margin-right: 93px;
+
     font-family: var(--secondary-font);
     font-weight: bold;
     font-size: 26px;
@@ -37,19 +37,26 @@
         color: var(--accent-color);
     }
 }
+.header__logo {
+    margin-right: 93px;
+}
 
-.logo-web {
+.logo__web {
     color: var(--accent-color);
 }
-.menu-item:not(:first-child) {
-    margin-left: 50px;
+.menu__item {
+    &:not(:first-child) {
+        margin-left: 50px;
+    }
 }
-.contact-item:not(:first-child) {
-    margin-left: 30px;
+.contact__item {
+    &:not(:first-child) {
+        margin-left: 30px;
+    }
 }
 
-.menu-link,
-.contact-link {
+.menu__link,
+.contact__link {
     display: flex;
     align-items: center;
     padding-top: 32px;
@@ -85,17 +92,17 @@
     }
 }
 
-.contact-link {
+.contact__link {
     color: var(--fifth-color);
     fill: var(--fifth-color);
 }
 
-.email-icon {
+.email__icon {
     width: 16px;
     height: 12px;
     margin-right: 10px;
 }
-.tell-icon {
+.tell__icon {
     width: 10px;
     height: 16px;
     margin-right: 10px;

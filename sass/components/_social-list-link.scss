@@ -1,9 +1,9 @@
-.social-list-icon {
+.social__list-icon {
     width: 20px;
     height: 20px;
 }
 
-.social-list-link {
+.social__list-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@
         background-color: var(--accent-color);
     }
 }
-.social-list-link.social-list-link-footer {
+.social__list-link.social-list-link-footer {
     background: rgba(255, 255, 255, 0.1);
     fill: var(--secondary-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -33,7 +33,7 @@
     }
 }
 
-.social-list {
+.social__list {
     display: flex;
     justify-content: space-between;
 }
